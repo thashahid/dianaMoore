@@ -93,6 +93,11 @@ header h5 {
   cursor: pointer;
   font-size: 14px;
 }
+fa fa-download {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 100px;
+}
 header p {
   font-size: 14px;
   font-family: sans-serif;
@@ -107,6 +112,34 @@ header ul li {
 	display: inline;
 	margin: 30px;
 	margin-left: -5px;
+}
+#sidebarWrap {
+  height: 400px;
+  width: 330px;
+  float: right;
+  position: relative;
+  box-shadow: none;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  width: 330px;
+  height: 300px;
+  position: absolute;
+  color: black;
+  background: #fff;
+  padding:  20px;
+
+}
+
+.main-content {
+  width: 80%;
+}
+.intro {
+  width: 80%;
+  text-justify: auto;
 }
 #p2 {
 	
@@ -132,6 +165,7 @@ h4 {
 .timeline {
 	max-width: 900px;
 	margin: 0 auto;
+  width: 80%;
 }
 
 .timeline-container {
@@ -139,6 +173,7 @@ h4 {
 	margin: 30px;
 	border-left: 4px solid #222;
 	padding-left: 25px;
+  width: 80%;
   }
   
   .timeline-container h3 {
@@ -196,6 +231,7 @@ h4 {
     font-weight: bolder;
     font-family: monospace;
     color: #fff;
+     width: 80%;
 }
 .pl {
   float: left;
